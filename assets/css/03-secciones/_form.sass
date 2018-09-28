@@ -1,0 +1,53 @@
+#form
+    .form
+        padding-top: 50px
+        padding-bottom: 50px
+        background-image: url('../img/form.svg')
+        background-position: center center
+        background-color: $azul
+        background-size: 90%
+        background-repeat: no-repeat
+        h3
+            color: white
+            text-align: center
+        form
+            margin-top: 25px
+            .input
+                margin-top: 10px
+                display: block
+                label
+                    color: white
+                label.label
+                    width: 10%
+                    display: inline-block
+                    margin-right: 25px
+                    font-weight: 800
+                label.check
+                    font-size: .8rem
+                input#correo, input#nombre, textarea#mensaje 
+                    width: 80%
+                    background: none
+                    border-left: none
+                    border-top: none
+                    border-right: none
+                    border-bottom: solid 1px white
+                textarea#mensaje
+                    height: 30px
+            .send
+                input
+                    background: none
+                    border: solid 1px white
+                    padding: 5px 15px
+                    color: white
+    .tel
+        padding-top: 50px
+        padding-bottom: 50px
+        background-image: url('../img/tel.svg')
+        background-position: center center
+        background-color: $negro
+        background-size: 50%
+        background-repeat: no-repeat
+        color: white
+        display: flex
+        flex-direction: column
+        justify-content: center
